@@ -11,7 +11,7 @@ public class cameraMove : MonoBehaviour
 
     private Rigidbody rigidbody;
 
-    [SerializeField] float power = 0.1f;
+    [SerializeField] float power = 0.2f;
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
